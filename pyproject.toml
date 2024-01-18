@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tacobelly"
+version = "0.1.0"
+description = ""
+authors = ["Camille Fassett <camillefassett@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+z3-solver = "^4.12.4.0"
+importlib-resources = "^6.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
